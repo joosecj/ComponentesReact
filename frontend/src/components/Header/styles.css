@@ -3,12 +3,12 @@
   height: 70px;
 }
 
-.ct-container {
+.ct-nav-container {
   text-align: center;
   padding: 20px 0;
 }
 
-.ct-container h1 {
+.ct-nav-container h1 {
   font-size: 20px;
   color: var(--text-title);
 }

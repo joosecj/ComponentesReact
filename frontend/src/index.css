@@ -5,7 +5,7 @@
   --text-primary-section: #5E5E5E;
   --text-second-blue: #3C9AF0;
 
-
+  --bg-border-blue: #3C9AF0;
   --bg-blue: #3C9AF0;
   --bg-white: #FFFFFF; 
   --bg-light-grey: #C8C8C8;
@@ -18,3 +18,23 @@
   padding: 0;
   font-family: 'Poppins'
 }
+
+.ct-container {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.ct-title-section {
+  color: var(--text-primary-section);
+  font-size: 20px;
+  font-weight: 700;
+} 
+
+.ct-mg-top-25 {
+  margin-top: 25px;
+}
+
+.ct-mg-bottom-25 {
+  margin-bottom: 25px;
+}
+
