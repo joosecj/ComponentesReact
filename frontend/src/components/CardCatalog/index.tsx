@@ -4,12 +4,12 @@ import carImg from '../../assets/car-card.png';
 export default function CardCatalog() {
   return (
     <>
-      <div className='ct-card-container'>
-        <div className='ct-card ct-mg-bottom-25'>
-          <div className='ct-card-img'>
+      <div className='ct-cards-container'>
+        <div className='ct-car-card ct-mg-bottom-25'>
+          <div className='ct-car-card-img'>
             <img src={carImg} alt="Carro" />
           </div>
-          <p className='ct-card-description'>Lorem ipsum dolor sit amet.</p>
+          <p className='ct-car-card-description'>Lorem ipsum dolor sit amet.</p>
         </div>
       </div>
     </>
