@@ -1,0 +1,9 @@
+.ct-header {
+  background-color: var(--bg-blue);
+  height: 70px;
+}
+
+.ct-container {
+  text-align: center;
+  padding: 20px 0;
+}
