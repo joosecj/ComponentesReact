@@ -9,3 +9,8 @@
   font-weight: 700;
   color: var(--text-primary-section);
 }
+
+.ct-car-card-img img {
+  max-width: 391px;
+  width: 100%;
+}
