@@ -32,6 +32,7 @@
   color: var(--text-primary-section);
   font-size: 20px;
   font-weight: 700;
+  text-align: center;
 } 
 
 .ct-mg-top-25 {
@@ -40,4 +41,10 @@
 
 .ct-mg-bottom-25 {
   margin-bottom: 25px;
+}
+
+@media (min-width: 700px) {
+  .ct-title-section {
+    font-size: 32px;
+  }
 }

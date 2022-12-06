@@ -12,3 +12,9 @@
   font-size: 20px;
   color: var(--text-title);
 }
+
+@media (min-width: 700px) {
+  .ct-nav-container h1 {
+    font-size: 24px;
+  }
+}

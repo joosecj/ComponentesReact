@@ -9,13 +9,13 @@ export default function Catalog() {
     <>
       <Header />
       <main>
-        <section className="ct-cards-container ">
+        <section>
           <h3 className='ct-title-section ct-mg-top-25 ct-mg-bottom-25'>Venha nos visitar</h3>
           <CardCatalog />
           <CardCatalog />
         </section>
 
-        <section id='comment' className="ct-cards-container">
+        <section id='comment'>
           <h3 className='ct-title-section'>O que estão dizendo</h3>
           <CommnetCatalog />
           <CommnetCatalog />
