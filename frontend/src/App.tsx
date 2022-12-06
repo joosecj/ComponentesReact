@@ -1,9 +1,9 @@
-import './App.css'
-import Header from './components/Header'
+import './App.css';
+import Catalog from './routes/Catalog';
 
 function App() {
   return (
-    <Header />
+    <Catalog />
   )
 }
 
