@@ -1,5 +1,6 @@
 import CardCatalog from '../../components/CardCatalog';
 import CommnetCatalog from '../../components/CommentCatalog';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './styles.css';
 
@@ -8,13 +9,13 @@ export default function Catalog() {
     <>
       <Header />
       <main>
-        <section className="ct-container">
+        <section className="ct-cards-container ">
           <h3 className='ct-title-section ct-mg-top-25 ct-mg-bottom-25'>Venha nos visitar</h3>
           <CardCatalog />
           <CardCatalog />
         </section>
 
-        <section id='comment' className="ct-container">
+        <section id='comment' className="ct-cards-container">
           <h3 className='ct-title-section'>O que estão dizendo</h3>
           <CommnetCatalog />
           <CommnetCatalog />
@@ -23,6 +24,7 @@ export default function Catalog() {
           <CommnetCatalog />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

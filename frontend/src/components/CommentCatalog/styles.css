@@ -1,6 +1,6 @@
 .ct-comment-card {
   background-color: var(--bg-white);
-  padding: 25px 20px;
+  padding: 25px 0;
   border: 1px solid var(--bg-blue);
   border-radius: 12px;
 }

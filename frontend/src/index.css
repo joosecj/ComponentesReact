@@ -19,10 +19,14 @@
   font-family: 'Poppins'
 }
 
-.ct-container {
+.ct-cards-container {
+  max-width: 746px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
   padding: 0 20px;
 }
+
 
 .ct-title-section {
   color: var(--text-primary-section);
@@ -37,10 +41,3 @@
 .ct-mg-bottom-25 {
   margin-bottom: 25px;
 }
-
-.ct-cards-container {
-  max-width: 746px;
-  width: 100%;
-  margin: 0 auto;
-}
-
