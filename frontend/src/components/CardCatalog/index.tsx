@@ -9,7 +9,7 @@ export default function CardCatalog() {
           <div className='ct-card-img'>
             <img src={carImg} alt="Carro" />
           </div>
-          <p className='ct-card-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem neque asperiores at, minima excepturi vero.</p>
+          <p className='ct-card-description'>Lorem ipsum dolor sit amet.</p>
         </div>
       </div>
     </>
